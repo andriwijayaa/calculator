@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background-image:url(a.jpg);
+}
+    .container {
+    margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient( 179.4deg,  rgba(33,150,243,1) 1.8%, rgba(199, 16, 255, 0.6) 97.1% );
+    }
+    .content {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content:center ;
+        align-content: center;
+        flex-direction: column;
+ }
+.row button {
+width:60px;
+height: 30px;
+font-size: 16px;
+border: none;
+outline: none;
+margin: 5px;
+border-radius: 4px;
+transition: 5px;
+box-shadow:5px 5px 8px #00000020,
+            -5px -5px 8px #ffff;
+}
+.row button:hover {
+box-shadow: inset 5px 5px 8px rgb(247, 0, 0),
+inset -5px 5px 8px #1305df;
+background:#702e6d;
+}
+
+.display #screen {
+    margin-bottom: .5em;
+width: auto;
+height: 80px;
+font-size: 35px;
+outline: none;
+border: none;
+text-align: right;
+padding-right: .5em;
+background: rgb(103, 129, 129);
+border-radius: 50;
+box-shadow: inset 8px 8px 8px #080808,
+inset -8px 8px 8px #000000;
+}
+#eval {
+background: #ff0b85;
+color: #ffffff;
+box-shadow: inset 5px 5px 8px #dfcece, inset -5px 5px 8px #e9d7d7;
+}
+#eval:hover {
+    box-shadow: inset 5px 5px 8px #bbdb06, inset -5px 5px 8px #00ace6;
+    }
+    #ac {
+    background: #33cc33;
+    color: #fff;
+    }
+    #ac:hover {
+    box-shadow: inset 5px 5px 8px #c5f100, inset -5px 5px 8px #33cc33;
+    }
+    #ce {
+    background: #aa09aa; 
+    color: #ff82e0;
+    }
+    #ce:hover {
+    box-shadow: inset 5px 5px 8px #fcae06, inset -5px 5px 8px #ff3399;
+}
